@@ -5,7 +5,7 @@ export default class Products extends Component {
     render() {
         return (
             <div>
-                <ul className="proudcts">
+                <ul className="products">
                     {this.props.products.map(product=>(
                         <li key={product._id}>
                             <div className="product">
@@ -15,7 +15,7 @@ export default class Products extends Component {
                                         {product.title}
                                     </p>
                                 </a>
-                                <div className="proudct-price">
+                                <div className="product-price">
                                     <div>
                                         {formatCurrency(product.price)}
                                     </div>
