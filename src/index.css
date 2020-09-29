@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 html{
   font-size: 62.5%;
   box-sizing: border-box;
@@ -7,9 +8,9 @@ body,
   height: 100vh;
   margin: 0;
 }
-body, input, select, textarea{
+body, input, select, textarea, button{
   font-size: 1.6rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 .grid-container{
   display: grid;
@@ -42,4 +43,71 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.main{
+  background: pink;
+  flex: 3 60rem;
+}
+.sidebar{
+  background: green;
+  flex: 1 20rem;
+}
+
+/* Products */
+.proudcts{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.proudcts li{
+  flex: 1 1 29rem;
+  height: 47rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.proudct{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.proudcts img{
+  max-width: 37rem;
+  max-height: 37rem;
+}
+.proudct-price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.proudct-price div,
+.proudct-price button{
+  text-align: center;
+  flex: 1;
+}
+.proudct-price div{
+  font-size: 2rem;
+}
+.button{
+  background: #f0f0f0;
+  border: .1rem solid #c0c0c0;
+  padding: 1rem;
+}
+.button:hover{
+  border: .1rem solid #808080;
+}
+.button.primary{
+  background: #ffc000;
+}
+a{
+  text-decoration: none;
 }
