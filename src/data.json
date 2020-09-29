@@ -14,7 +14,7 @@
             "title": "Dress 2",
             "description": "about dress 2",
             "price": 30.566,
-            "availableSizes": ["X", "L", "XL", "XXL"]
+            "availableSizes": ["XL", "M", "XXL"]
          },
          { 
             "_id": "dress 3",

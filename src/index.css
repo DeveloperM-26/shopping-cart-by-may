@@ -50,16 +50,14 @@ footer{
   flex-wrap: wrap;
 }
 .main{
-  background: pink;
   flex: 3 60rem;
 }
 .sidebar{
-  background: green;
   flex: 1 20rem;
 }
 
 /* Products */
-.proudcts{
+.products{
   margin: 0;
   padding: 0;
   display: flex;
@@ -68,33 +66,33 @@ footer{
   align-items: center;
   list-style-type: none;
 }
-.proudcts li{
-  flex: 1 1 29rem;
+.products li{
+  flex: 0 1 29rem;
   height: 47rem;
   padding: 1rem;
   margin: 1rem;
 }
-.proudct{
+.product{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
-.proudcts img{
+.products img{
   max-width: 37rem;
   max-height: 37rem;
 }
-.proudct-price{
+.product-price{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.proudct-price div,
-.proudct-price button{
+.product-price div,
+.product-price button{
   text-align: center;
   flex: 1;
 }
-.proudct-price div{
+.product-price div{
   font-size: 2rem;
 }
 .button{
@@ -110,4 +108,16 @@ footer{
 }
 a{
   text-decoration: none;
+}
+
+/* Filter */
+.filter{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: .1rem solid #c0c0c0;
+}
+.filter div{
+  flex: 1;
 }
